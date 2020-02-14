@@ -4,7 +4,8 @@ Hello, I`m Pavel Efremov - junior frontend developer. There are examples of my w
 
 ## Examples ##
 ---
-* [Landing page №1](https://mr26efremov.github.io/MarketikaSite/)
+* [Landing page of web studio](https://mr26efremov.github.io/MarketikaSite/)
+* [Main page of law firm](https://mr26efremov.github.io/LogotypeSite/)
 
 ## My technology Stack ##
 ---
