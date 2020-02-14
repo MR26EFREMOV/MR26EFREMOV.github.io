@@ -6,7 +6,6 @@ Hello, I`m Pavel Efremov - junior frontend developer. There are examples of my w
 ---
 * [Landing page of web studio](https://mr26efremov.github.io/MarketikaSite/)
 * [Main page of law firm](https://mr26efremov.github.io/LogotypeSite/)
-* <a href="https://mr26efremov.github.io/LogotypeSite/" target="_blank">Main page of law firm</a>
 
 ## My technology Stack ##
 ---
