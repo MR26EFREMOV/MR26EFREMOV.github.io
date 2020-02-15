@@ -1,13 +1,14 @@
 #  About me #
 ---
-Hello, I`m Pavel Efremov - junior frontend developer. There are examples of my works. 
+Hello, I`m Pavel Efremov - junior frontend developer from Russia. There are examples of my works. 
 
 ## Examples ##
 ---
 * [Landing page of web studio](https://mr26efremov.github.io/MarketikaSite/)
 * [Main page of law firm](https://mr26efremov.github.io/LogotypeSite/)
+* [Main page of beauty salon](https://mr26efremov.github.io/BeautySalonSite/)
 
-## My technology Stack ##
+## My technology stack ##
 ---
 * HTML
 * CSS
