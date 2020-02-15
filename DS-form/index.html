@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DS Academy FORM</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<form action="https://digital-spectr.com/ac/academy.php" method="post" class="form">
+    <h1 class="heading">Задать вопрос</h1>
+    <input name="name" placeholder="Фамилия Имя Отчество *" pattern="[А-Яа-яЁё\s\-\(\)]+" oninput="validateName(this)" class="form__field" required>
+    <input type="tel" name="phone" placeholder="Телефон *" pattern="[0-9\(\)\s\-\+]+"oninput="validatePhone(this)" class="form__field form__field_focused" required>
+    <input type="email" name="email" placeholder="Email" oninput="validateEmail(this)" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" class="form__field">
+    <button type="submit"  class="form__button">ОТПРАВИТЬ ЗАПРОС</button>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
