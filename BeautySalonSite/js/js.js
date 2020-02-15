@@ -74,7 +74,7 @@ document.addEventListener(
                 "position-right",
                 "theme-dark"
             ],
-            "navbar": {"title":"<img class='header__logo' src='../img/logo-1.svg' alt='logo'>"}
+            "navbar": {"title":"<img class='header__logo' src='img/logo-1.svg' alt='logo'>"}
         }
         );
     }
