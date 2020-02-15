@@ -2,11 +2,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-
 body, h1 {
   margin: 0;
 }
-
 .form {
   margin: 31px auto 0;
   width: 481px;
@@ -49,12 +47,9 @@ body, h1 {
   outline: none;
   color: #FFFFFF;
 }
-
 .heading {
   color: #3B3D43;
-  margin: 40px 0 25px 40px;
+  margin: 35px 0 21px 40px;
   align-self: flex-start;
   font-size: 24px;
 }
-
-/*# sourceMappingURL=css.css.map */
