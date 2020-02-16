@@ -110,7 +110,3 @@ $(function() {
         $('body,html').animate({scrollTop:0},700);
     });
 });
-
-$(window).on('load', function() {
-    $('.preloader').fadeOut().end().delay(300).fadeOut('slow');
-});
