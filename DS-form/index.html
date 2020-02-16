@@ -12,7 +12,7 @@
 <body>
 <form action="https://digital-spectr.com/ac/academy.php" method="post" class="form">
     <h1 class="heading">Задать вопрос</h1>
-    <input name="name" placeholder="Фамилия Имя Отчество *" pattern="[А-Яа-яЁё\s\-\(\)]+" oninput="validateName(this)" class="form__field" required>
+    <input name="name" placeholder="Фамилия Имя Отчество *" pattern="[А-Яа-яЁё\s\-]+" oninput="validateName(this)" class="form__field" required>
     <input type="tel" name="phone" placeholder="Телефон *" pattern="[0-9\(\)\s\-\+]+"oninput="validatePhone(this)" class="form__field form__field_focused" required>
     <input type="email" name="email" placeholder="Email" oninput="validateEmail(this)" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" class="form__field">
     <button type="submit"  class="form__button">ОТПРАВИТЬ ЗАПРОС</button>
