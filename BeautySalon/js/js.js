@@ -100,10 +100,11 @@ $("form.callback").submit(function() { //Change
 });
 $(function() {
     $(window).scroll(function() {
-        if($(this).scrollTop() > 300) {
-            $('#topNubex').fadeIn();
-        } else {
-            $('#topNubex').fadeOut();
+        if($(this).scrollTop() > 400) {
+            $('#topNubex').css("visibility", "unset");
+        }
+        else {
+            $('#topNubex').css("visibility", "hidden");
         }
     });
     $('#topNubex').click(function() {
