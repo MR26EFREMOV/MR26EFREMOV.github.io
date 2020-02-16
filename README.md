@@ -6,7 +6,7 @@ Hello, I`m Pavel Efremov - junior frontend developer from Russia. There are exam
 ---
 * [Landing page of web studio](https://mr26efremov.github.io/MarketikaSite/)
 * [Main page of law firm](https://mr26efremov.github.io/LogotypeSite/)
-* [Main page of beauty salon](https://mr26efremov.github.io/BeautySalonSite/)
+* [Main page of beauty salon](https://mr26efremov.github.io/BeautySalon/)
 
 ## My technology stack ##
 ---
