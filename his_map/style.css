@@ -1,0 +1,255 @@
+/*add fonts*/
+@font-face {
+    font-family: "Bitter";
+    src: url("font/Bitter-Regular.ttf") format("ttf");
+}
+/*styles for blocks*/
+html,
+body,
+#viewDiv {
+    font-family: 'Bitter', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+button {
+    border: none;
+}
+button:focus,
+button:active {
+    outline: none;
+}
+.map__header {
+    position: absolute;
+    top: -2px;
+    left: 61px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px rgb(196, 196, 196);
+    z-index: 2;
+    padding: 6px 8px;
+    max-width: 375px;
+}
+.map__tools {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    bottom: 0;
+    top: 0;
+    background: white;
+    box-shadow: -1px 0 5px 0 rgb(205, 205, 205);
+}
+#topbar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.action-button {
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    color: #6e6e6e;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all .2s;
+}
+.action-button:last-child {
+    margin-top: 10px;
+}
+.action-button:hover,
+.action-button:focus {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #2e2e2e;
+}
+#overviewDiv {
+    position: absolute;
+    top: -38px;
+    right: 15px;
+    width: 250px;
+    height: 175px;
+    border: 1px solid #2e2e2e;
+    z-index: 1;
+}
+#extentDiv {
+    position: absolute;
+    z-index: 2;
+}
+.esri-ui-top-right {
+    top: 0;
+    right: 35px;
+}
+.esri-component.esri-zoom {
+    box-shadow: none;
+    background: none;
+}
+.esri-zoom .esri-widget--button {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.esri-zoom .esri-widget--button:last-child {
+    margin-top: 10px;
+    border-top: 0;
+}
+.esri-widget--button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.esri-widget:focus,
+.esri-component:focus,
+.esri-widget--button:focus {
+    outline: none;
+}
+.map__position-info {
+    border-radius: 20px;
+    padding: 10px 10px 10px;
+    max-width: 260px;
+}
+.esri-basemap-toggle__container {
+    border-radius: 10px;
+}
+.esri-ui-manual-container .esri-expand--auto {
+    background: none;
+    top: 116px;
+    right: 15px;
+}
+.esri-distance-measurement-2d,
+.esri-area-measurement-2d {
+    margin-right: 14px;
+    z-index: 3;
+}
+.esri-search__input {
+    margin-top: 4px;
+}
+.esri-locate {
+    top: 170px;
+    right: 15px;
+}
+.esri-popup__button.esri-popup__action:first-child {
+    max-width: 66%;
+}
+.esri-layer-list, .esri-legend {
+    top: 170px;
+    width: 250px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.esri-layer-list_open, .esri-legend_open {
+    display: block;
+}
+.esri-layer-list {
+    left: 15px;
+    max-height: 50vh;
+    width: 250px;
+}
+.esri-layer-list__item-container {
+    padding: 7px 5px 7px 5px;
+}
+.esri-legend {
+    left: 280px;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+.esri-legend__service {
+    padding: 3px 5px;
+}
+.esri-legend__service-label {
+    margin-bottom: 8px;
+}
+.esri-legend__layer-caption {
+    display: none;
+}
+.esri-legend__layer-table {
+    margin-bottom: 5px;
+}
+.esri-layer-list-toggle, .esri-legend-toggle {
+    position: absolute;
+    top: 116px;
+    height: 40px;
+    width: 190px;
+    border-radius: 20px;
+    background: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    transition: all .2s;
+}
+.esri-layer-list-toggle:hover,
+.esri-legend-toggle:hover,
+.esri-layer-list-toggle:active,
+.esri-legend-toggle:active {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #2e2e2e;
+}
+.esri-layer-list-toggle {
+    left: 63px;
+}
+.esri-legend-toggle {
+    left: 270px;
+}
+.map__info-objects {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 220px;
+    right: 120px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    font-size: 14px;
+    display: none;
+    overflow-y: auto;
+}
+.map__info-objects p:not(:last-child) {
+    margin: 0;
+    padding: 7px 4px;
+    border-bottom: 1px solid gray;
+}
+.map__info-objects p:last-child {
+    text-align: center;
+}
+#line-button {
+    position: absolute;
+    right: 15px;
+    top: 220px;
+}
+#clearGraph {
+    position: absolute;
+    top: 220px;
+    right: 65px;
+    display: none;
+}
+.esri-search {
+    top: 15px;
+    right: 64px;
+    width: 280px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#searchWidget {
+    top: 300px;
+    right: 15px;
+}
+.esri-search.esri-widget + .esri-expand--auto {
+    top: 270px;
+}
+#printId_controls_content {
+    right: 72px;
+    width: 250px;
+    top: 0;
+}
+.map__doc-open {
+    position: absolute;
+text-decoration: none;
+    top: 320px;
+    right: 15px;
+}
